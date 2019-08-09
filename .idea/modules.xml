@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Inject Pulsa.iml" filepath="$PROJECT_DIR$/Inject Pulsa.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/hapo/hapo.iml" filepath="$PROJECT_DIR$/hapo/hapo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hapo-payment.iml" filepath="$PROJECT_DIR$/hapo-payment.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylibrary2/mylibrary2.iml" filepath="$PROJECT_DIR$/mylibrary2/mylibrary2.iml" />
     </modules>

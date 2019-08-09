@@ -5,7 +5,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,7 +29,7 @@ public class inboxFragment extends Fragment implements AdapterView.OnItemClickLi
     public static dbinbox mHelper;
     public static TodoCursorAdapter dataAdapter;
     LinearLayout doodle;
-    @Nullable
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.inbox, container, false);
@@ -59,12 +58,12 @@ public class inboxFragment extends Fragment implements AdapterView.OnItemClickLi
 
     public void jalan() {
         mCursor = mHelper.getAllDataInbox();
-        if(mCursor.getCount()>0){
+        if (mCursor.getCount() > 0) {
             doodle.setVisibility(View.GONE);
-        }else {
+        } else {
             doodle.setVisibility(View.VISIBLE);
         }
-        dataAdapter =  new TodoCursorAdapter(getActivity(), mCursor);
+        dataAdapter = new TodoCursorAdapter(getActivity(), mCursor);
         // Assign adapter to ListView
         mList.setAdapter(dataAdapter);
     }
@@ -83,14 +82,14 @@ public class inboxFragment extends Fragment implements AdapterView.OnItemClickLi
         dialogBuilder.setItems(Animals, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int item) {
                 String selectedText = Animals[item].toString();  //Selected item in listview
-                if(selectedText.equals("Buka")){
+                if (selectedText.equals("Buka")) {
                     String dari = rowId;
                     Intent intent = new Intent(getActivity(), inboxDetail.class);
                     intent.putExtra("id", dari);
                     startActivity(intent);
-                }else if(selectedText.equals("Hapus")){
+                } else if (selectedText.equals("Hapus")) {
                     mHelper.Hapus(rowId);
-                }else if(selectedText.equals("Hapus Semua")){
+                } else if (selectedText.equals("Hapus Semua")) {
                     mHelper.HapusALL();
                 }
                 jalan();

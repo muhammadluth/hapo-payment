@@ -31,14 +31,11 @@
         android:name="android.permission.KILL_BACKGROUND_PROCESSES"
         tools:ignore="ProtectedPermissions" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
     <!--
      needed for older devices -
      used to check app background / foreground status
     -->
-    <uses-permission android:name="android.permission.GET_TASKS" />
-
-    <!-- Permission: Writing to SDCard -->
+    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- Permission: Writing to SDCard -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
@@ -53,6 +50,7 @@
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -74,8 +72,10 @@
         <activity android:name=".chat.mainChat" />
         <activity android:name=".pendaftaranLogin.Login" />
         <activity android:name=".pendaftaranLogin.SignUp" />
+        <activity android:name=".nav_bottom.akunFragment" />
 
         <service android:name=".koneksi.service_xmpp" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

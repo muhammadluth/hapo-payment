@@ -26,12 +26,11 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.ImageButton;
 
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
 import com.pulsa.koneksi.service_xmpp;
-import com.pulsa.nav_bottom.akunFragment;
+import com.pulsa.nav_bottom.accountFragment;
 import com.pulsa.nav_bottom.historiTransaksi;
 import com.pulsa.nav_bottom.homeAtribut.ViewPagerAdapter;
 import com.pulsa.nav_bottom.homeFragment;
@@ -81,13 +80,13 @@ public class MainActivity extends AppCompatActivity {
         session = new SessionManager(getApplicationContext());
         //session.checkLogin();
 
-        ButtonAccount = (ImageButton)findViewById(R.id.ButtonAccount);
+        ButtonAccount = (ImageButton) findViewById(R.id.ButtonAccount);
         ButtonAccount.setOnClickListener(new View.OnClickListener() {
 
-        public void onClick (View item) {
-            Intent int1=new Intent(MainActivity.this, akunFragment.class);
-            startActivity(int1);
-                }
+            public void onClick(View item) {
+                Intent int1 = new Intent(MainActivity.this, accountFragment.class);
+                startActivity(int1);
+            }
         });
 //
 //        ButtonAccount.setOnClickListener(new View.OnClickListener() {
@@ -273,7 +272,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
             return true;
+        } else if (id == R.id.ButtonAccount) {
+            accountFragment fragment = new accountFragment();
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.frame, fragment);
+            transaction.commit();
         }
+
 
         return super.onOptionsItemSelected(item);
     }
@@ -308,7 +313,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
     private void start(int id) {
         Fragment fragment = null;
         Bundle bundle = new Bundle();
@@ -319,7 +323,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.inbox) {
             fragment = new inboxFragment();
         } else if (id == R.id.profile) {
-            fragment = new akunFragment();
+            fragment = new accountFragment();
         } else if (id == R.id.cek_transaksi) {
             fragment = new historiTransaksi();
         }
