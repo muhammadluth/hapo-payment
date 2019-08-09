@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         setTitle(R.string.app_name);
         saldo = findViewById(R.id.saldo);
         head_produk = findViewById(R.id.head_produk);
-        iklanApp = findViewById(R.id.iklanApp);
+//        iklanApp = findViewById(R.id.iklanApp);
 
 
         LocalBroadcastManager.getInstance(this).registerReceiver(iYourBroadcastReceiver, new IntentFilter(RESTART_CONNECTION_APP));
@@ -133,54 +133,54 @@ public class MainActivity extends AppCompatActivity {
         final ViewPager imgSlider = findViewById(R.id.viewPager);
         dotsLayout = findViewById(R.id.layoutDots);
 
-        addBanners(imgSlider);
-        addBottomDots(0);
+//        addBanners(imgSlider);
+//        addBottomDots(0);
     }
 
 
-    private void addBanners(final ViewPager imgSlider) {
-        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this);
-        imgSlider.setAdapter(viewPagerAdapter);
-        imgSlider.addOnPageChangeListener(viewPagerPageChangeListener);
-        setTimer(imgSlider, 5);
+//    private void addBanners(final ViewPager imgSlider) {
+//        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this);
+//        imgSlider.setAdapter(viewPagerAdapter);
+//        imgSlider.addOnPageChangeListener(viewPagerPageChangeListener);
+//        setTimer(imgSlider, 5);
+//
+//        imgSlider.setOnTouchListener(new View.OnTouchListener() {
+//            public boolean onTouch(View v, MotionEvent event) {
+//                switch (event.getAction()) {
+//                    case MotionEvent.ACTION_DOWN:
+//                        stopTimer();
+//                        break;
+//                    case MotionEvent.ACTION_UP:
+//                        setTimer(imgSlider, 1);
+//                        break;
+//                }
+//                return false;
+//            }
+//        });
+//    }
 
-        imgSlider.setOnTouchListener(new View.OnTouchListener() {
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN:
-                        stopTimer();
-                        break;
-                    case MotionEvent.ACTION_UP:
-                        setTimer(imgSlider, 1);
-                        break;
-                }
-                return false;
-            }
-        });
-    }
-
-    ViewPager.OnPageChangeListener viewPagerPageChangeListener = new ViewPager.OnPageChangeListener() {
-        @Override
-        public void onPageSelected(int position) {
-            //Log.e("Selected", position + "*");
-            addBottomDots(position);
-            if (position > currentPage) {
-                currentPage += 1;
-            } else {
-                currentPage -= 1;
-            }
-        }
-
-        @Override
-        public void onPageScrolled(int i, float v, int i1) {
-            //Log.e("Scrolled", "*");
-        }
-
-        @Override
-        public void onPageScrollStateChanged(int i) {
-            //Log.e("ScrollStateChanged", "*");
-        }
-    };
+//    ViewPager.OnPageChangeListener viewPagerPageChangeListener = new ViewPager.OnPageChangeListener() {
+//        @Override
+//        public void onPageSelected(int position) {
+//            //Log.e("Selected", position + "*");
+//            addBottomDots(position);
+//            if (position > currentPage) {
+//                currentPage += 1;
+//            } else {
+//                currentPage -= 1;
+//            }
+//        }
+//
+//        @Override
+//        public void onPageScrolled(int i, float v, int i1) {
+//            //Log.e("Scrolled", "*");
+//        }
+//
+//        @Override
+//        public void onPageScrollStateChanged(int i) {
+//            //Log.e("ScrollStateChanged", "*");
+//        }
+//    };
 
     public void stopTimer() {
         // handler.removeCallbacks(null);
@@ -217,20 +217,20 @@ public class MainActivity extends AppCompatActivity {
         }, 1000, time * 1000);
     }
 
-    private void addBottomDots(int currentPage) {
-        dots = new TextView[3];
-        dotsLayout.removeAllViews();
-        for (int i = 0; i < dots.length; i++) {
-            dots[i] = new TextView(this);
-            dots[i].setText(Html.fromHtml("&#8226;"));
-            dots[i].setTextSize(17);
-            dots[i].setTextColor(getResources().getColor(R.color.background2));
-            dotsLayout.addView(dots[i]);
-        }
-
-        if (dots.length > 0)
-            dots[currentPage].setTextColor(getResources().getColor(R.color.black));
-    }
+//    private void addBottomDots(int currentPage) {
+//        dots = new TextView[3];
+//        dotsLayout.removeAllViews();
+//        for (int i = 0; i < dots.length; i++) {
+//            dots[i] = new TextView(this);
+//            dots[i].setText(Html.fromHtml("&#8226;"));
+//            dots[i].setTextSize(17);
+//            dots[i].setTextColor(getResources().getColor(R.color.background2));
+//            dotsLayout.addView(dots[i]);
+//        }
+//
+//        if (dots.length > 0)
+//            dots[currentPage].setTextColor(getResources().getColor(R.color.black));
+//    }
 
 
     private String ambilInfoFile() {
@@ -316,7 +316,7 @@ public class MainActivity extends AppCompatActivity {
     private void start(int id) {
         Fragment fragment = null;
         Bundle bundle = new Bundle();
-        iklanApp.setVisibility(View.VISIBLE);
+//        iklanApp.setVisibility(View.VISIBLE);
         head_produk.setVisibility(View.VISIBLE);
         if (id == R.id.home) {
             fragment = new homeFragment();
