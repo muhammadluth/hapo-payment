@@ -1,0 +1,86 @@
+[
+  {
+    "nama": "Pulsa",
+    "groupMenu": "Pulsa",
+    "aksi": "Pulsa",
+    "keterangan": "Silahkan ini nomor tujuan terlebih dahulu, nominal produk akan muncul setelahnya",
+    "gambar": "pulsa.png"
+  },
+  {
+    "nama": "Paket Data",
+    "groupMenu": "Pulsa",
+    "aksi": "paketData",
+    "keterangan": "Silahkan ini nomor tujuan terlebih dahulu, nominal produk akan muncul setelahnya",
+    "gambar": "paket_data.png"
+  },
+  {
+    "nama": "Paket Telepon & SMS",
+    "groupMenu": "Pulsa",
+    "aksi": "PaketTeleponSMS",
+    "keterangan": "Silahkan ini nomor tujuan terlebih dahulu, nominal produk akan muncul setelahnya",
+    "gambar": "paket_telepon_&_sms.png"
+  },
+  {
+    "nama": "Telepon Pascabayar",
+    "groupMenu": "Pulsa",
+    "aksi": "TeleponPascabayar",
+    "keterangan": "Tagihan akan langsung terbayar tanpa perlu konfirmasi terlebih dahulu",
+    "gambar": "telepon_pascabayar.png"
+  },
+  {
+    "nama": "Listrik PLN",
+    "groupMenu": "Listrik PLN",
+    "aksi": "ListrikPLN",
+    "keterangan": "Silahkan ini nomor tujuan terlebih dahulu, nominal produk akan muncul setelahnya",
+    "gambar": "listrik_pln.png"
+  },
+  {
+    "nama": "PDAM",
+    "groupMenu": "PPOB",
+    "aksi": "PDAM",
+    "keterangan": "Tagihan akan langsung terbayar tanpa perlu konfirmasi terlebih dahulu",
+    "gambar": "pdam.png"
+  },
+  {
+    "nama": "BPJS",
+    "groupMenu": "PPOB",
+    "aksi": "BPJS",
+    "keterangan": "Tagihan akan langsung terbayar tanpa perlu konfirmasi terlebih dahulu",
+    "gambar": "bpjs.png"
+  },
+  {
+    "nama": "Internet",
+    "groupMenu": "PPOB",
+    "aksi": "Internet",
+    "keterangan": "Tagihan akan langsung terbayar tanpa perlu konfirmasi terlebih dahulu",
+    "gambar": "internet.png"
+  },
+  {
+    "nama": "E-Money",
+    "groupMenu": "Voucher Game",
+    "aksi": "EMoney",
+    "keterangan": "Silahkan ini nomor tujuan terlebih dahulu, nominal produk akan muncul setelahnya",
+    "gambar": "emoney.png"
+  },
+  {
+    "nama": "Voucher Game",
+    "groupMenu": "Voucher Game",
+    "aksi": "VoucherGames",
+    "keterangan": "Silahkan ini nomor tujuan terlebih dahulu, nominal produk akan muncul setelahnya",
+    "gambar": "voucher_game.png"
+  },
+  {
+    "nama": "TV",
+    "groupMenu": "PPOB",
+    "aksi": "TV",
+    "keterangan": "Tagihan akan langsung terbayar tanpa perlu konfirmasi terlebih dahulu",
+    "gambar": "tv.png"
+  },
+  {
+    "nama": "Finance",
+    "groupMenu": "PPOB",
+    "aksi": "Finance",
+    "keterangan": "Tagihan akan langsung terbayar tanpa perlu konfirmasi terlebih dahulu",
+    "gambar": "finance.png"
+  }
+]

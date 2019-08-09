@@ -1,0 +1,96 @@
+{
+  "groupMenu": "BPJS",
+  "data": [
+    {
+      "nama": "Ketenagakerjaan ",
+      "produk": "BPJS KETENAGAKERJAAN",
+      "kodeCek": "CEKBPJSTK",
+      "kodeTransaksi": "BYRBPJSTK",
+      "poin": "0",
+      "fee": "Rp. 950 (fee)",
+      "status": "",
+      "kategori": "postpaid",
+      "tipeKeyboard": "nomor",
+      "keterangan": "Pembayaran BPJS Ketenagakerjaan",
+      "nomorHidden": true
+    },
+    {
+      "nama": "Kesehatan 1bln ",
+      "produk": "BPJSKES 1BLN",
+      "kodeCek": "CEKBPJS",
+      "kodeTransaksi": "BYRBPJS",
+      "poin": "0",
+      "fee": "Rp. 950 (fee)",
+      "status": "",
+      "kategori": "postpaid",
+      "tipeKeyboard": "nomor",
+      "keterangan": "Pembayaran BPJS Kesehatan",
+      "nomorHidden": true
+    },
+    {
+      "nama": "Kesehatan 2bln ",
+      "produk": "BPJSKES 2BLN",
+      "kodeCek": "CEKBPJS2",
+      "kodeTransaksi": "BYRBPJS2",
+      "poin": "0",
+      "fee": "Rp. 950 (fee)",
+      "status": "",
+      "kategori": "postpaid",
+      "tipeKeyboard": "nomor",
+      "keterangan": "Pembayaran BPJS Kesehatan",
+      "nomorHidden": true
+    },
+    {
+      "nama": "Kesehatan 3bln ",
+      "produk": "BPJSKES 3BLN",
+      "kodeCek": "CEKBPJS3",
+      "kodeTransaksi": "BYRBPJS3",
+      "poin": "0",
+      "fee": "Rp. 950 (fee)",
+      "status": "",
+      "kategori": "postpaid",
+      "tipeKeyboard": "nomor",
+      "keterangan": "Pembayaran BPJS Kesehatan",
+      "nomorHidden": true
+    },
+    {
+      "nama": "Kesehatan 4bln ",
+      "produk": "BPJSKES 4BLN",
+      "kodeCek": "CEKBPJS4",
+      "kodeTransaksi": "BYRBPJS4",
+      "poin": "0",
+      "fee": "Rp. 950 (fee)",
+      "status": "",
+      "kategori": "postpaid",
+      "tipeKeyboard": "nomor",
+      "keterangan": "Pembayaran BPJS Kesehatan",
+      "nomorHidden": true
+    },
+    {
+      "nama": "Kesehatan 5bln ",
+      "produk": "BPJSKES 5BLN",
+      "kodeCek": "CEKBPJS5",
+      "kodeTransaksi": "BYRBPJS5",
+      "poin": "0",
+      "fee": "Rp. 950 (fee)",
+      "status": "",
+      "kategori": "postpaid",
+      "tipeKeyboard": "nomor",
+      "keterangan": "Pembayaran BPJS Kesehatan",
+      "nomorHidden": true
+    },
+    {
+      "nama": "Kesehatan 6bln ",
+      "produk": "BPJSKES 6BLN",
+      "kodeCek": "CEKBPJS6",
+      "kodeTransaksi": "BYRBPJS6",
+      "poin": "0",
+      "fee": "Rp. 950 (fee)",
+      "status": "",
+      "kategori": "postpaid",
+      "tipeKeyboard": "nomor",
+      "keterangan": "Pembayaran BPJS Kesehatan",
+      "nomorHidden": true
+    }
+  ]
+}

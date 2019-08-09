@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#5D1049</color>
+    <color name="colorPrimaryDark">#4E0D3A</color>-->
+    <color name="colorPrimary">#f50057</color>
+    <color name="colorPrimaryDark">#bb002f</color>
+    <!--<color name="colorAccent">#720D5D</color>-->
+    <color name="colorAccent">#64c1ff</color>
+
+    <color name="merah">#E30425</color>
+    <color name="putih">#ffffff</color>
+    <color name="pink">#FFE5E9</color>
+    <color name="abu">#f1f1f1</color>
+    <color name="hint">#999999</color>
+    <color name="hitam">#000000</color>
+    <color name="text">#222222</color>
+    <color name="bg_edit_text">#eceef1</color>
+    <color name="bg_kirim">#eceef1</color>
+    <color name="bg_favorit">#8E24AA</color>
+    <color name="text_abuabu">#616161</color>
+    <color name="background">#EEEEEE</color>
+
+    <!-- Tabs Collor -->
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="ungu">#6A1B9A</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!-- general colors for drawer -->
+    <color name="list_background">#F2F2F2</color>
+    <!-- primary colors for drawer -->
+    <color name="list_background_normal">#FCFCFC</color>
+    <!-- secondary colors for drawer -->
+    <color name="list_background_secondary_normal">#F2F2F2</color>
+    <color name="text_abu_abu">#666666</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="hijau">#6CD8A7</color>
+    <color name="goblack">#161616</color>
+    <color name="colorBlue">#0011ff</color>
+    <color name="background2">#bababa</color>
+</resources>

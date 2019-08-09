@@ -1,0 +1,109 @@
+{
+  "groupMenu": "Pulsa",
+  "data": [
+    {
+      "nama": "Smartfren",
+      "hlr": [
+        "0881",
+        "0882",
+        "0883",
+        "0884",
+        "0888",
+        "0887",
+        "0885",
+        "0880",
+        "0886",
+        "0889",
+        "02450",
+        "02440"
+      ],
+      "img": "http://192.168.5.6/api/keterangan/app/paket-data/smartfren.png",
+      "detail": [
+        {
+          "kodeTransaksi": "5",
+          "nominal": "5.000",
+          "namaProduk": "Smartfren Pascabayar",
+          "poin": "0",
+          "operator": "Smartfren",
+          "harga": "5.500",
+          "keterangan": "Pembayaran Telepon Pascabayar"
+        }
+      ]
+    },
+    {
+      "nama": "Telkomsel",
+      "hlr": [
+        "0811",
+        "0812",
+        "0813",
+        "0852",
+        "0821",
+        "0853",
+        "0823",
+        "0821",
+        "0851",
+        "0822"
+      ],
+      "img": "http://192.168.5.6/api/keterangan/app/paket-data/telkomsel.png",
+      "detail": [
+        {
+          "kodeTransaksi": "5",
+          "nominal": "5.000",
+          "namaProduk": "Telkomsel Pascabayar",
+          "poin": "0",
+          "operator": "Telkomsel",
+          "harga": "5.500",
+          "keterangan": "Pembayaran Telepon Pascabayar"
+        }
+      ]
+    },
+    {
+      "nama": "TRI",
+      "hlr": [
+        "0899",
+        "0898",
+        "0897",
+        "0896",
+        "0895"
+      ],
+      "img": "http://192.168.5.6/api/keterangan/app/paket-data/tri.png",
+      "detail": [
+        {
+          "kodeTransaksi": "1",
+          "nominal": "1.000",
+          "namaProduk": "TRI Pascabayar",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "2.000",
+          "keterangan": "Pembayaran Telepon Pascabayar"
+        }
+      ]
+    },
+    {
+      "nama": "XL",
+      "hlr": [
+        "0817",
+        "0818",
+        "0819",
+        "0859",
+        "0875",
+        "0876",
+        "0877",
+        "0878",
+        "0879"
+      ],
+      "img": "http://192.168.5.6/api/keterangan/app/paket-data/xl.png",
+      "detail": [
+        {
+          "kodeTransaksi": "5",
+          "nominal": "5.000",
+          "namaProduk": "XL Pascabayar",
+          "poin": "0",
+          "operator": "XL",
+          "harga": "5.500",
+          "keterangan": "Pembayaran Telepon Pascabayar"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+include ':app', ':hapo', ':mylibrary', ':mylibrary2'

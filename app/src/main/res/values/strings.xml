@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Hapo</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="invalid_email">This email address is invalid</string>
+    <string name="invalid_password">Password is too short</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="field_required">This field is required</string>
+    <string name="info">Klik untuk menghubungi kami melalui</string>
+    <string name="doodle_iput_no_telepon">Silahkan masukkan nomor telepon</string>
+    <string name="proses">proses</string>
+    <string name="doodle_iput_no_inbox">Tidak ada inbox transaksi yang tersimpan</string>
+    <string name="cek_pelanggan">CEK ID</string>
+    <string name="doodle_tidakada_info">Tidak ada info yang tersedia</string>
+    <string name="saldo">Saldo</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_inbox">Inbox</string>
+    <string name="nav_histori">Histori</string>
+    <string name="nav_akun">Akun</string>
+    <string name="ubahPassword">Ubah Password</string>
+    <string name="konfirmasi">Mohon data dilengkapi</string>
+    <string name="hint_pin">Pin transaksi</string>
+    <string name="hint_nohp">Ex : 081987654321</string>
+    <string name="belumdipilih">Kontak Belum Dipilih</string>
+    <string name="hint_pelanggan">Ex : 162706930001</string>
+</resources>

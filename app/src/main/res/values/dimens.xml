@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textInputDefault">17sp</dimen>
+    <dimen name="titleForm">15sp</dimen>
+    <dimen name="keterangan">14sp</dimen>
+    <dimen name="keterangan_list">14sp</dimen>
+    <dimen name="buttonHeight">43dp</dimen>
+    <dimen name="dividerHeight">0.7dp</dimen>
+    <dimen name="textInputChat">15sp</dimen>
+</resources>

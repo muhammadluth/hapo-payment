@@ -1,0 +1,550 @@
+{
+  "groupMenu": "Pulsa",
+  "data": [
+    {
+      "nama": "Axis",
+      "hlr": [
+        "0831",
+        "0832",
+        "0837",
+        "0838"
+      ],
+      "img": "http://192.168.5.6/api/keterangan/app/paket-data/axis.png",
+      "detail": [
+        {
+          "kodeTransaksi": "5",
+          "nominal": "5.000",
+          "namaProduk": "Axis 5.000",
+          "poin": "0",
+          "operator": "Axis",
+          "harga": "5.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "10",
+          "nominal": "10.000",
+          "namaProduk": "Axis 10.000",
+          "poin": "0",
+          "operator": "Axis",
+          "harga": "10.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "15",
+          "nominal": "15.000",
+          "namaProduk": "Axis 15.000",
+          "poin": "0",
+          "operator": "Axis",
+          "harga": "15.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "25",
+          "nominal": "25.000",
+          "namaProduk": "Axis 25.000",
+          "poin": "0",
+          "operator": "Axis",
+          "harga": "25.200",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "30",
+          "nominal": "30.000",
+          "namaProduk": "Axis 30.000",
+          "poin": "0",
+          "operator": "Axis",
+          "harga": "30.100",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "50",
+          "nominal": "50.000",
+          "namaProduk": "Axis 50.000",
+          "poin": "0",
+          "operator": "Axis",
+          "harga": "49.800",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "100",
+          "nominal": "100.000",
+          "namaProduk": "Axis 100.000",
+          "poin": "0",
+          "operator": "Axis",
+          "harga": "99.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        }
+      ]
+    },
+    {
+      "nama": "Indosat",
+      "hlr": [
+        "0815",
+        "0816",
+        "0855",
+        "0856",
+        "0857",
+        "0858",
+        "0814"
+      ],
+      "img": "http://192.168.5.6/api/keterangan/app/paket-data/indosat.png",
+      "detail": [
+        {
+          "kodeTransaksi": "5",
+          "nominal": "5.000",
+          "namaProduk": "Indosat 5.000",
+          "poin": "0",
+          "operator": "Indosat",
+          "harga": "5.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "10",
+          "nominal": "10.000",
+          "namaProduk": "Indosat 10.000",
+          "poin": "0",
+          "operator": "Indosat",
+          "harga": "10.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "20",
+          "nominal": "20.000",
+          "namaProduk": "Indosat 20.000",
+          "poin": "0",
+          "operator": "Indosat",
+          "harga": "20.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "25",
+          "nominal": "25.000",
+          "namaProduk": "Indosat 25.000",
+          "poin": "0",
+          "operator": "Indosat",
+          "harga": "25.200",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "30",
+          "nominal": "30.000",
+          "namaProduk": "Indosat 30.000",
+          "poin": "0",
+          "operator": "Indosat",
+          "harga": "30.100",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "50",
+          "nominal": "50.000",
+          "namaProduk": "Indosat 50.000",
+          "poin": "0",
+          "operator": "Indosat",
+          "harga": "49.800",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "100",
+          "nominal": "100.000",
+          "namaProduk": "Indosat 100.000",
+          "poin": "0",
+          "operator": "Indosat",
+          "harga": "99.400",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        }
+      ]
+    },
+    {
+      "nama": "Smartfren",
+      "hlr": [
+        "0881",
+        "0882",
+        "0883",
+        "0884",
+        "0888",
+        "0887",
+        "0885",
+        "0880",
+        "0886",
+        "0889",
+        "02450",
+        "02440"
+      ],
+      "img": "http://192.168.5.6/api/keterangan/app/paket-data/smartfren.png",
+      "detail": [
+        {
+          "kodeTransaksi": "5",
+          "nominal": "5.000",
+          "namaProduk": "Smartfren 5.000",
+          "poin": "0",
+          "operator": "Smartfren",
+          "harga": "5.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "10",
+          "nominal": "10.000",
+          "namaProduk": "Smartfren 10.000",
+          "poin": "0",
+          "operator": "Smartfren",
+          "harga": "10.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "20",
+          "nominal": "20.000",
+          "namaProduk": "Smartfren 20.000",
+          "poin": "0",
+          "operator": "Smartfren",
+          "harga": "20.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "25",
+          "nominal": "25.000",
+          "namaProduk": "Smartfren 25.000",
+          "poin": "0",
+          "operator": "Smartfren",
+          "harga": "25.200",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "30",
+          "nominal": "30.000",
+          "namaProduk": "Smartfren 30.000",
+          "poin": "0",
+          "operator": "Smartfren",
+          "harga": "30.100",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "50",
+          "nominal": "50.000",
+          "namaProduk": "Smartfren 50.000",
+          "poin": "0",
+          "operator": "Smartfren",
+          "harga": "50.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "60",
+          "nominal": "60.000",
+          "namaProduk": "Smartfren 60.000",
+          "poin": "0",
+          "operator": "Smartfren",
+          "harga": "60.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "100",
+          "nominal": "100.000",
+          "namaProduk": "Smartfren 100.000",
+          "poin": "0",
+          "operator": "Smartfren",
+          "harga": "100.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        }
+      ]
+    },
+    {
+      "nama": "Telkomsel",
+      "hlr": [
+        "0811",
+        "0812",
+        "0813",
+        "0852",
+        "0821",
+        "0853",
+        "0823",
+        "0821",
+        "0851",
+        "0822"
+      ],
+      "img": "http://192.168.5.6/api/keterangan/app/paket-data/telkomsel.png",
+      "detail": [
+        {
+          "kodeTransaksi": "5",
+          "nominal": "5.000",
+          "namaProduk": "Telkomsel 5.000",
+          "poin": "0",
+          "operator": "Telkomsel",
+          "harga": "5.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "10",
+          "nominal": "10.000",
+          "namaProduk": "Telkomsel 10.000",
+          "poin": "0",
+          "operator": "Telkomsel",
+          "harga": "10.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "20",
+          "nominal": "20.000",
+          "namaProduk": "Telkomsel 20.000",
+          "poin": "0",
+          "operator": "Telkomsel",
+          "harga": "20.300",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "25",
+          "nominal": "25.000",
+          "namaProduk": "Telkomsel 25.000",
+          "poin": "0",
+          "operator": "Telkomsel",
+          "harga": "25.200",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "50",
+          "nominal": "50.000",
+          "namaProduk": "Telkomsel 50.000",
+          "poin": "0",
+          "operator": "Telkomsel",
+          "harga": "50.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "100",
+          "nominal": "100.000",
+          "namaProduk": "Telkomsel 100.000",
+          "poin": "0",
+          "operator": "Telkomsel",
+          "harga": "100.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "150",
+          "nominal": "150.000",
+          "namaProduk": "Telkomsel 150.000",
+          "poin": "0",
+          "operator": "Telkomsel",
+          "harga": "150.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "200",
+          "nominal": "200.000",
+          "namaProduk": "Telkomsel 200.000",
+          "poin": "0",
+          "operator": "Telkomsel",
+          "harga": "200.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "300",
+          "nominal": "300.000",
+          "namaProduk": "Telkomsel 300.000",
+          "poin": "0",
+          "operator": "Telkomsel",
+          "harga": "300.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        }
+      ]
+    },
+    {
+      "nama": "TRI",
+      "hlr": [
+        "0899",
+        "0898",
+        "0897",
+        "0896",
+        "0895"
+      ],
+      "img": "http://192.168.5.6/api/keterangan/app/paket-data/tri.png",
+      "detail": [
+        {
+          "kodeTransaksi": "1",
+          "nominal": "1.000",
+          "namaProduk": "TRI 1.000",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "2.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "2",
+          "nominal": "2.000",
+          "namaProduk": "TRI 2.000",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "2.700",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "3",
+          "nominal": "3.000",
+          "namaProduk": "TRI 3.000",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "3.700",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "4",
+          "nominal": "4.000",
+          "namaProduk": "TRI 4.000",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "4.700",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "5",
+          "nominal": "5.000",
+          "namaProduk": "TRI 5.000",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "5.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "10",
+          "nominal": "10.000",
+          "namaProduk": "TRI 10.000",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "10.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "15",
+          "nominal": "15.000",
+          "namaProduk": "TRI 15.000",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "15.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "20",
+          "nominal": "20.000",
+          "namaProduk": "TRI 20.000",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "20.300",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "25",
+          "nominal": "25.000",
+          "namaProduk": "TRI 25.000",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "25.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "30",
+          "nominal": "30.000",
+          "namaProduk": "TRI 30.000",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "30.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "50",
+          "nominal": "50.000",
+          "namaProduk": "TRI 50.000",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "49.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "100",
+          "nominal": "100.000",
+          "namaProduk": "TRI 100.000",
+          "poin": "0",
+          "operator": "TRI",
+          "harga": "99.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        }
+      ]
+    },
+    {
+      "nama": "XL",
+      "hlr": [
+        "0817",
+        "0818",
+        "0819",
+        "0859",
+        "0875",
+        "0876",
+        "0877",
+        "0878",
+        "0879"
+      ],
+      "img": "http://192.168.5.6/api/keterangan/app/paket-data/xl.png",
+      "detail": [
+        {
+          "kodeTransaksi": "5",
+          "nominal": "5.000",
+          "namaProduk": "XL 5.000",
+          "poin": "0",
+          "operator": "XL",
+          "harga": "5.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "10",
+          "nominal": "10.000",
+          "namaProduk": "XL 10.000",
+          "poin": "0",
+          "operator": "XL",
+          "harga": "10.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "15",
+          "nominal": "15.000",
+          "namaProduk": "XL 15.000",
+          "poin": "0",
+          "operator": "XL",
+          "harga": "15.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "25",
+          "nominal": "25.000",
+          "namaProduk": "XL 25.000",
+          "poin": "0",
+          "operator": "XL",
+          "harga": "25.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "30",
+          "nominal": "30.000",
+          "namaProduk": "XL 30.000",
+          "poin": "0",
+          "operator": "XL",
+          "harga": "30.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "50",
+          "nominal": "50.000",
+          "namaProduk": "XL 50.000",
+          "poin": "0",
+          "operator": "XL",
+          "harga": "49.500",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        },
+        {
+          "kodeTransaksi": "100",
+          "nominal": "100.000",
+          "namaProduk": "XL 100.000",
+          "poin": "0",
+          "operator": "XL",
+          "harga": "99.000",
+          "keterangan": "Pulsa Reguler Masa aktif bertambah 30 Hari"
+        }
+      ]
+    }
+  ]
+}

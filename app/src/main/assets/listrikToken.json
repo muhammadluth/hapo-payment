@@ -1,0 +1,66 @@
+{
+  "groupMenu": "Listrik PLN",
+  "nama": "Token Listrik",
+  "data": [
+    {
+      "kodeCek": "CEKTKN",
+      "poin": "250 POIN",
+      "kodeTransaksi": "PLN20",
+      "namaProduk": "Token 20.000",
+      "nominal": "20.000",
+      "harga": "Rp. 21.050",
+      "hargaJual": "Rp. 21.050",
+      "keterangan": "Token Listrik 20.000"
+    },
+    {
+      "kodeCek": "CEKTKN",
+      "poin": "250 POIN",
+      "kodeTransaksi": "PLN50",
+      "namaProduk": "Token 50.000",
+      "nominal": "50.000",
+      "harga": "Rp. 51.050",
+      "hargaJual": "Rp. 51.050",
+      "keterangan": "Token Listrik 50.000"
+    },
+    {
+      "kodeCek": "CEKTKN",
+      "poin": "250 POIN",
+      "kodeTransaksi": "PLN100",
+      "namaProduk": "Token 100.000",
+      "nominal": "100.000",
+      "harga": "Rp. 101.050",
+      "hargaJual": "Rp. 101.050",
+      "keterangan": "Token Listrik 100.000"
+    },
+    {
+      "kodeCek": "CEKTKN",
+      "poin": "250 POIN",
+      "kodeTransaksi": "PLN200",
+      "namaProduk": "Token 200.000",
+      "nominal": "200.000",
+      "harga": "Rp. 201.050",
+      "hargaJual": "Rp. 201.050",
+      "keterangan": "Token Listrik 200.000"
+    },
+    {
+      "kodeCek": "CEKTKN",
+      "poin": "250 POIN",
+      "kodeTransaksi": "PLN500",
+      "namaProduk": "Token 500.000",
+      "nominal": "500.000",
+      "harga": "Rp. 501.050",
+      "hargaJual": "Rp. 501.050",
+      "keterangan": "Token Listrik 500.000"
+    },
+    {
+      "kodeCek": "CEKTKN",
+      "poin": "250 POIN",
+      "kodeTransaksi": "PLN1000",
+      "namaProduk": "Token 1.000.000",
+      "nominal": "1.000.000",
+      "harga": "Rp. 1.001.050",
+      "hargaJual": "Rp. 1.001.050",
+      "keterangan": "Token Listrik 1.000.000"
+    }
+  ]
+}

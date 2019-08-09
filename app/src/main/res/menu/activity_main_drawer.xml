@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:title="Cek Transaksi" />
+        <item
+            android:id="@+id/utama"
+            android:title="Home" />
+        <item
+            android:id="@+id/inbox"
+            android:title="Inbox" />
+    </group>
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/cek_saldo"
+                android:title="Cek Saldo"
+                android:visible="false" />
+            <item
+                android:id="@+id/cek_transaksi"
+                android:title="Cek Transaksi" />
+        </menu>
+    </item>
+    <item android:title="Pengaturan">
+        <menu>
+            <item
+                android:id="@+id/ganti_pin"
+                android:title="Ganti PIN" />
+            <item
+                android:id="@+id/ganti_password"
+                android:title="Ganti Password App" />
+        </menu>
+    </item>
+    <item android:title="Petunjuk">
+        <menu>
+            <item
+                android:id="@+id/bantuan"
+                android:title="Kontak Bantuan" />
+
+            <item
+                android:id="@+id/info_terbaru"
+                android:title="Pusat Informasi"
+                app:actionViewClass="android.widget.TextView" />
+
+            <item
+                android:id="@+id/cara_isi_saldo"
+                android:title="Cara Isi Saldo" />
+
+            <item
+                android:id="@+id/cara_transaksi"
+                android:title="Cara Transaksi" />
+
+            <item
+                android:id="@+id/isi_voucher_korea"
+                android:title="Cara Isi Voucher Korea" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/komplain"
+        android:title="Customer Service"
+        android:visible="false" />
+</menu>

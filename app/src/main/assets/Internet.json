@@ -1,0 +1,18 @@
+{
+  "groupMenu": "Internet",
+  "data": [
+    {
+      "nama": "Telkom",
+      "produk": "Speedy",
+      "kodeCek": "CEKTELKOM",
+      "kodeTransaksi": "BYRTELKOM",
+      "poin": "0",
+      "fee": "Rp. 950 (fee)",
+      "status": "",
+      "kategori": "postpaid",
+      "tipeKeyboard": "nomor",
+      "keterangan": "Pembayaran Internet Telkom",
+      "nomorHidden": true
+    }
+  ]
+}
