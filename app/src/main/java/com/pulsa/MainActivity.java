@@ -88,14 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(int1);
             }
         });
-//
-//        ButtonAccount.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intentLoadakunFragment = onNewIntent
-//                startActivity(intentLoadakunFragment);
-//            }
-//        });
+
 
 
         AHBottomNavigationItem item1 = new AHBottomNavigationItem(R.string.nav_home, R.drawable.go_home, R.color.colorPrimary);

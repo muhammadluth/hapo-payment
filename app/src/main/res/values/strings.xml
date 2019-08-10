@@ -16,7 +16,7 @@
     <string name="doodle_tidakada_info">Tidak ada info yang tersedia</string>
     <string name="saldo">Saldo</string>
     <string name="nav_home">Home</string>
-    <string name="nav_inbox">Inbox</string>
+    <string name="nav_inbox">Transaksi</string>
     <string name="nav_histori">Histori</string>
     <string name="nav_akun">Akun</string>
     <string name="ubahPassword">Ubah Password</string>

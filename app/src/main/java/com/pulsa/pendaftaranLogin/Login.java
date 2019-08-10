@@ -225,7 +225,7 @@ public class Login extends AppCompatActivity {
                     }
                 }
             } catch (Exception e) {
-                Log.e("login", e.getMessage());
+                Log.e("login succes", e.getMessage());
             }
         }
     };

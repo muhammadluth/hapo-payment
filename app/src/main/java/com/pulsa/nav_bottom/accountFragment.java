@@ -113,7 +113,7 @@ public class accountFragment extends Fragment {
     private void rating() {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(getActivity());
         alertDialog.setTitle("Rating");
-        alertDialog.setMessage("Anda senang menggunakan aplikasi DiPay ? Ayo dukung kami dengan cara memberi bintang 5 dan tulis ulasan di playstore, dukungan yang anda berikan akan sangat membantu kami dalam penyempurnaan produk maupun layanan yang lebih baik");
+        alertDialog.setMessage("Anda senang menggunakan aplikasi Hipo ? Ayo dukung kami dengan cara memberi bintang 5 dan tulis ulasan di playstore, dukungan yang anda berikan akan sangat membantu kami dalam penyempurnaan produk maupun layanan yang lebih baik");
         alertDialog.setPositiveButton("Beri Nilai", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 /*Intent intent = new Intent(Intent.ACTION_VIEW);

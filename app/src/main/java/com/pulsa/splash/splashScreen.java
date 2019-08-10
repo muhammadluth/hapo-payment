@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.pulsa.MainActivity;
 import com.pulsa.koneksi.service_xmpp;
+import com.pulsa.pendaftaranLogin.Login;
 import com.pulsa.setGet.GetSession;
 import com.pulsa.BuildConfig;
 import com.pulsa.R;
@@ -48,6 +49,9 @@ public class splashScreen extends Activity {
                     e.printStackTrace();
                 } finally {
                     splasScreen = false;
+                    /*untuk spalsh screen mauk ke halaman login*/
+//                    Intent i = new Intent(getApplicationContext(), Login.class);
+                    /*untuk spalsh screen mauk ke halaman home*/
                     Intent i = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(i);
                     finish();

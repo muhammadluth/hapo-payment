@@ -72,7 +72,7 @@
         <activity android:name=".chat.mainChat" />
         <activity android:name=".pendaftaranLogin.Login" />
         <activity android:name=".pendaftaranLogin.SignUp" />
-        <activity android:name=".nav_bottom.akunFragment" />
+        <!--<activity android:name=".nav_bottom.akunFragment" />-->
 
         <service android:name=".koneksi.service_xmpp" />
 
