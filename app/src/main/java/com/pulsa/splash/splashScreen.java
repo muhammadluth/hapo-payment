@@ -50,9 +50,9 @@ public class splashScreen extends Activity {
                 } finally {
                     splasScreen = false;
                     /*untuk spalsh screen mauk ke halaman login*/
-//                    Intent i = new Intent(getApplicationContext(), Login.class);
+                    Intent i = new Intent(getApplicationContext(), Login.class);
                     /*untuk spalsh screen mauk ke halaman home*/
-                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
+//                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(i);
                     finish();
                 }

@@ -44,6 +44,7 @@ public class Login extends AppCompatActivity {
     private EditText emailTextView;
     private EditText passwordTextView;
     private Button signUpTextView;
+    private Button loginButton;
     private TextView Tunggu;
     public static String emailStr;
     public static String passwordStr;
@@ -54,13 +55,13 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         changeStatusBarColor();
         setContentView(R.layout.login_activity);
-        LocalBroadcastManager.getInstance(this).registerReceiver(mYourBroadcastReceiver, new IntentFilter(AKSI_REGISTRATION_COMPLETE));
+//        LocalBroadcastManager.getInstance(this).registerReceiver(mYourBroadcastReceiver, new IntentFilter(AKSI_REGISTRATION_COMPLETE));
 
-        try {
-            stopService(new Intent(getApplicationContext(), service_xmpp.class));
-        } catch (Exception e) {
-
-        }
+//        try {
+//            stopService(new Intent(getApplicationContext(), service_xmpp.class));
+//        } catch (Exception e) {
+//
+//        }
         emailTextView = findViewById(R.id.email);
         passwordTextView = findViewById(R.id.password);
         Button loginButton = findViewById(R.id.email_sign_in_button);
@@ -69,6 +70,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 initLogin();
+
             }
         });
 
@@ -206,8 +208,8 @@ public class Login extends AppCompatActivity {
             try {
                 if (intent.getAction() != null) {
                     if (intent.getAction().equals(AKSI_REGISTRATION_COMPLETE)) {
-                        String pesan = intent.getStringExtra("isi");
-                        showProgress(false);
+                            String pesan = intent.getStringExtra("isi");
+                            showProgress(false);
                         if (pesan.equalsIgnoreCase("ok")) {
                             sessionManager.createLoginSession(emailStr, passwordStr);
                             Intent i = new Intent(getApplicationContext(), MainActivity.class);
@@ -225,7 +227,7 @@ public class Login extends AppCompatActivity {
                     }
                 }
             } catch (Exception e) {
-                Log.e("login succes", e.getMessage());
+                Log.e("login", e.getMessage());
             }
         }
     };
