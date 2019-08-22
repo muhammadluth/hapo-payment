@@ -35,8 +35,9 @@ public class splashScreen extends Activity {
 
         changeStatusBarColor();
         setContentView(R.layout.splash);
-        TextView versi = findViewById(R.id.versi);
-        versi.setText(BuildConfig.VERSION_NAME);
+//        TextView versi = findViewById(R.id.versi);
+//        versi.setText(BuildConfig.VERSION_NAME);
+
         Thread timerThread = new Thread() {
             public void run() {
                 String email = gs.getUser();
@@ -50,9 +51,11 @@ public class splashScreen extends Activity {
                 } finally {
                     splasScreen = false;
                     /*untuk spalsh screen mauk ke halaman login*/
-                    Intent i = new Intent(getApplicationContext(), Login.class);
+//                    Intent i = new Intent(getApplicationContext(), Login.class);
+
+
                     /*untuk spalsh screen mauk ke halaman home*/
-//                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(i);
                     finish();
                 }

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/gradasi_bg"
     tools:ignore="UnusedAttribute">
 
     <RelativeLayout
@@ -14,16 +14,13 @@
         android:focusable="true"
         android:focusableInTouchMode="true">
 
-        <TextView
+        <ImageView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_gravity="center_horizontal"
-            android:text="HAPO"
-            android:textColor="@color/black"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:src="@drawable/ic_logo"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
